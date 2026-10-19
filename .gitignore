@@ -1,0 +1,31 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Test reports and generated artifacts
+allure-results/
+allure-report/
+reports/
+test-results/
+playwright-report/
+
+# Playwright traces, videos, screenshots
+trace.zip
+*.webm
+
+# macOS files
+.DS_Store
+
+# VS Code local settings
+.vscode/

@@ -1,0 +1,6 @@
+test_case,email,password,expected_result,expected_error
+Valid login,user@premiumbank.com,Bank@123,success,
+Both fields empty,,,error,Email and Password are required
+Email empty,,Bank@123,error,Email is required
+Password empty,user@premiumbank.com,,error,Password is required
+Invalid credentials,wrong@example.com,WrongPass123,error,Invalid email id and password
